@@ -1,0 +1,87 @@
+body{
+    font-size: 23px;
+}
+#Techchix{
+    width: 150px;
+    margin-left: 13%;
+}
+#navbar{
+    display: flex;
+    gap: 13%;
+    background-color: rgb(2,127,255);
+    height: 70px;
+    align-items: center;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    gap: 45%;
+
+}
+#profile{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+#details{
+    width: 500px;
+    height: 600px;
+}.a{
+    text-decoration: none;
+    color: white;
+}
+#profileinfo{
+    display: flex;
+    padding: 60px;
+    gap: 25%;
+}
+#heading{
+    font-size: 50px;
+}
+@media all and (min-width: 280px) and (max-width : 1024px){
+    body{
+        font-size: 15px;
+    }
+    #Techchix{
+        width: 50px;
+        margin-left: 4%;
+    }
+    #navbar{
+        display: flex;
+        gap: 4%;
+        background-color: rgb(2,127,255);
+        height: 70px;
+        align-items: center;
+        font-size: 10px;
+    }
+    #nav{
+        display: flex;
+        align-items: center;
+        gap: 1%;
+    
+    }
+    #profile{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+    #details{
+        width: 400px;
+        height: 600px;
+    }.a{
+        text-decoration: none;
+        color: white;
+    }
+    #profileinfo{
+        display: flex;
+       flex-direction: column;
+        padding: 5px;
+        gap: 1px;
+    }
+    #heading{
+        font-size: 20px;
+    }
+    #mentor{
+        width: 200px;
+    }
+}

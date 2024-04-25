@@ -1,0 +1,99 @@
+body{
+    font-size: 23px;
+}
+
+#banner{
+    display: flex;
+    padding: 20px;
+    gap: 10%;
+}
+#signup-details{
+      background-color: rgb(2,127,255);
+      width: 1000px;
+      height: 800px;
+      text-align: center;
+}
+#input{
+    width : 550px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(110, 106, 106);
+}
+#signup-text{
+    font-size: 50px;
+    color: white;
+}
+#signup-button{
+    padding: 15px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    margin-left: 3%;
+}
+#heading{
+    font-size: 50px;
+    color: black;
+}
+#techchix{
+    width: 150px;
+}
+.create{
+  text-decoration: none;
+  color: white;
+}
+@media all and (min-width: 280px) and (max-width : 1024px){
+    body{
+    font-size: 20px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5%;
+}
+#signup-details{
+      background-color: rgb(2,127,255);
+      width: 330px;
+      height: 500px;
+      text-align: center;
+}
+#input{
+    width : 200px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid rgb(110, 106, 106);
+}
+#signup-text{
+    font-size: 20px;
+    color: white;
+}
+#signup-button{
+    padding: 15px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    margin-left: 3%;
+}
+#heading{
+    font-size: 20px;
+    color: black;
+}
+#techchix{
+    width: 150px;
+}
+.create{
+  text-decoration: none;
+  color: white;
+}
+#images-sign-up{
+    width: 300px;
+}
+}
+

@@ -1,0 +1,129 @@
+body {
+    font-size: 23px;
+    }
+    #Techchix{
+        width: 150px;
+        margin-left: 13%;
+    }
+    #navbar{
+        display: flex;
+        gap: 13%;
+        background-color: rgb(2,127,255);
+        height: 70px;
+        align-items: center;
+    }
+    #nav{
+        display: flex;
+        align-items: center;
+        gap: 45%;
+    }
+    #container {
+    max-width: 1000px;
+    margin-left: 25%;
+    padding: 30px;
+    }
+    #todo-list {
+    list-style-type: none;
+    padding: 0;
+    }
+    #todo-list li {
+    margin-bottom: 10px;
+    }
+    #todo-list li.completed {
+    text-decoration: line-through;
+    }
+    #todo-list li button {
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+    }
+    #new-task{
+         width: 700px;
+         height: 50px;
+         font-size: 17px;
+         text-align: center;
+    }
+    #addtaskbutton{
+        background-color: rgb(2,127,255);
+        border:  rgb(2,127,255);
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        width: 200px;
+    }
+    .a{
+        text-decoration: none;
+        color: white;
+    }
+    @media all and (min-width: 280px) and (max-width : 1024px){
+        body {
+            font-size: 10px;
+            }
+            #Techchix{
+                width: 50px;
+            }
+            #navbar{
+                display: flex;
+                gap: 5%;
+                background-color: rgb(2,127,255);
+                height: 50px;
+                align-items: center;
+            }
+            #nav{
+                display: flex;
+                align-items: center;
+                gap: 1%;
+            }
+            #container {
+            max-width: 500px;
+            margin-left: 2%;
+            padding: 10px;
+            }
+            #todo-list {
+            list-style-type: none;
+            padding: 0;
+            }
+            #todo-list li {
+            margin-bottom: 10px;
+            }
+            #todo-list li.completed {
+            text-decoration: line-through;
+            }
+            #todo-list li button {
+            margin-left: 10px;
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            width: 100px;
+            border-radius: 10px;
+            }
+            #new-task{
+                 width: 200px;
+                 height: 50px;
+                 font-size: 17px;
+                 text-align: center;
+            }
+            #addtaskbutton{
+                background-color: rgb(2,127,255);
+                border:  rgb(2,127,255);
+                padding: 10px;
+                border-radius: 10px;
+                color: white;
+                width: 100px;
+            }
+            .a{
+                text-decoration: none;
+                color: white;
+            }
+            #to-doimage{
+                width: 200px;
+            }
+    }
+    

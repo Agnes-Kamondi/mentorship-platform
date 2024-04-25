@@ -1,0 +1,100 @@
+body{
+    font-size: 25px;
+}
+#banner{
+    display : flex;
+    padding: 50px;
+    gap: 25%;
+}
+#input{
+    width : 500px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+#loginbutton{
+    background-color: black;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+#passwordinfo{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20%;
+}
+#login-text{
+    font-size: 50px;
+}
+#logindetails{
+    background-color: rgb(2,127,255);
+    color: white;
+    width: 1000px;
+    height: 800px;
+    text-align: center;
+}
+#techchix{
+    width: 150px;
+}
+.sign-up{
+    text-decoration: none;
+    color: white;
+}
+@media all and (min-width: 280px) and (max-width : 1024px){
+    body{
+        font-size: 25px;
+    }
+    #banner{
+        display : flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 10%;
+    }
+    #input{
+        width : 200px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        border: none;
+    }
+    #loginbutton{
+        background-color: black;
+        width: 150px;
+        border-radius: 20px;
+        font-size: 10px;
+        color: white;
+        padding: 15px;
+    }
+    #passwordinfo{
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-left: 5%;
+    }
+    #login-text{
+        font-size: 50px;
+    }
+    #logindetails{
+        background-color: rgb(2,127,255);
+        color: white;
+        width: 500px;
+        height: 600px;
+        text-align: center;
+    }
+    #techchix{
+        width: 150px;
+    }
+    .sign-up{
+        text-decoration: none;
+        color: white;
+    }
+    #loginsvg{
+        width: 500px;
+    }
+}
