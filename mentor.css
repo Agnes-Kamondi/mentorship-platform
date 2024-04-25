@@ -1,5 +1,5 @@
 body{
-    font-size: 25px;
+    font-size: 23px;
 }
 #Techchix{
     width: 150px;
@@ -36,6 +36,8 @@ body{
     margin-left: 30%;
     width: fit-content;
     text-align: left;
+    font-size: 27px;
+
 }
 .a{
     text-decoration: none;
@@ -88,6 +90,14 @@ body{
        flex-direction: column;
         padding: 5px;
         gap: 20px;
+    }
+    #text{
+        border: 1px solid white;
+        margin-left: 20%;
+        width: fit-content;
+        text-align: left;
+        font-size: 15px;
+    
     }
     #heading{
         font-size: 20px;

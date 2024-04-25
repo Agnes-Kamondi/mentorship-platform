@@ -20,3 +20,12 @@ function addTask() {
     li.appendChild(deleteButton);
     list.appendChild(li);
     }
+    function saveTasks() {
+        var tasks = [];
+        var list = document.getElementById("todo-list").getElementsByTagName("li");
+        for (var i = 0; i < list.length; i++) {
+        tasks.push(list[i].textContent.trim());
+        }
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+        alert("Tasks saved successfully!");
+    }
