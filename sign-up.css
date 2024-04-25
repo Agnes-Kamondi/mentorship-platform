@@ -44,6 +44,9 @@ body{
   text-decoration: none;
   color: white;
 }
+#images-sign-up{
+    height: 500px;
+}
 @media all and (min-width: 280px) and (max-width : 1024px){
     body{
     font-size: 20px;

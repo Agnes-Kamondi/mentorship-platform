@@ -1,5 +1,5 @@
 body{
-    font-size: 23px;
+    font-size: 25px;
 }
 #Techchix{
     width: 150px;
@@ -24,16 +24,27 @@ body{
     border-radius: 200px;
 }
 #details{
-    width: 500px;
-    height: 600px;
-}.a{
+    width: 700px;
+    height: 740px;
+    border: 2px solid;
+   text-align: center;
+   border-radius: 10px;
+
+}
+#text{
+    border: 1px solid white;
+    margin-left: 30%;
+    width: fit-content;
+    text-align: left;
+}
+.a{
     text-decoration: none;
     color: white;
 }
 #profileinfo{
     display: flex;
     padding: 60px;
-    gap: 25%;
+    gap: 20%;
 }
 #heading{
     font-size: 50px;
@@ -57,7 +68,7 @@ body{
     #nav{
         display: flex;
         align-items: center;
-        gap: 1%;
+        gap: 5%;
     
     }
     #profile{
@@ -66,8 +77,8 @@ body{
         border-radius: 100px;
     }
     #details{
-        width: 400px;
-        height: 600px;
+        width: 340px;
+        height: 400px;
     }.a{
         text-decoration: none;
         color: white;
@@ -76,7 +87,7 @@ body{
         display: flex;
        flex-direction: column;
         padding: 5px;
-        gap: 1px;
+        gap: 20px;
     }
     #heading{
         font-size: 20px;

@@ -1,6 +1,9 @@
 body {
     font-size: 23px;
     }
+    h1{
+        font-size: 60px;
+    }
     #Techchix{
         width: 150px;
         margin-left: 13%;
