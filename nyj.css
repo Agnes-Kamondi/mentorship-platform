@@ -1,0 +1,26 @@
+body{
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(2,127,255);
+}
+#born-a-crime{
+    width: 500px;
+    height: 600px;
+    margin-left: 35%;
+}
+@media all and (min-width: 280px) and (max-width : 1024px){
+    body{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 30px;
+        color: rgb(2,127,255);
+    }
+    #born-a-crime{
+        width: 250px;
+        height: 300px;
+        margin-left:5%;
+    }
+}
